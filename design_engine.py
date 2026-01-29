@@ -17,7 +17,7 @@ class BrandDesigner:
             genai.configure(api_key=api_key)
             
             # 使用 gemini-1.5-flash，這顆模型邏輯跟創意都很強
-            model = genai.GenerativeModel('gemini-1.5-flash-latest')
+            model = genai.GenerativeModel('gemini-1.5-flash-001')
             
             system_prompt = "你是一位世界級的工業設計師 (Industrial Designer)，擅長將品牌識別 (Brand DNA) 轉化為實體產品設計。請用繁體中文回答，語氣專業且富有創意。"
             

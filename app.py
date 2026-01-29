@@ -14,7 +14,7 @@ designer = BrandDesigner()
 # Sidebar - Settings
 with st.sidebar:
     st.header("設定 (Settings)")
-    api_key = st.text_input("OpenAI API Key", type="password", help="請輸入您的 OpenAI API Key 以啟用生成功能。")
+    api_key = st.text_input("Google AI Studio Key", type="password", help="請輸入您的 Google Gemini API Key")
     
     st.markdown("---")
     st.markdown("""

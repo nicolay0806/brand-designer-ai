@@ -13,8 +13,8 @@ class BrandDesigner:
         try:
             genai.configure(api_key=api_key)
             
-            # 【修改重點 1】改用目前最穩定的 Gemini 2.5 Flash
-            model = genai.GenerativeModel('gemini-2.5-flash')
+            # 【修改重點 1】# 改用 Gemini 3 Flash Preview
+            model = genai.GenerativeModel('gemini-3-flash-preview')
             
             system_prompt = "你是一位世界級工業設計師。請用繁體中文回答。"
             

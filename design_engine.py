@@ -13,7 +13,7 @@ class BrandDesigner:
         try:
             genai.configure(api_key=api_key)
             # 這裡用免費且快速的 Flash 模型寫文案
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            model = genai.GenerativeModel('gemini-1.5-flash-001')
             
             system_prompt = "你是一位世界級工業設計師。請用繁體中文回答。"
             
